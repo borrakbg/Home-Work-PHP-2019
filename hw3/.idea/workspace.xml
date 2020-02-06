@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ComposerSettings">
+    <execution>
+      <phar pharPath="C:\ProgramData\ComposerSetup\bin" />
+    </execution>
+  </component>
+  <component name="ProjectId" id="1VNYQOWJPKeRcx4Tw5vUJ1nLjaX" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../php/ext/php_xdebug.dll" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
+  </component>
+</project>

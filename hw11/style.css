@@ -1,0 +1,15 @@
+.news{
+    text-align: center;
+}
+
+.meta{
+    font-family: Arial;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.content{
+    text-align: center;
+    width: 550px;
+    margin-left: 680px;
+}

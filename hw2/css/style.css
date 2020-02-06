@@ -1,0 +1,82 @@
+html{
+    background: #cccccc;
+}
+
+body{
+    text-align: center;
+}
+
+#header{
+	background: #fb0707;
+	color: #f8e403;
+	border-top: yellow solid 5px;
+	border-bottom: #0740fb solid 5px;
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2em;
+}
+
+#sidebar-one{
+	background: #0740fb;
+	color: #f8e403;
+        border-top: #00ff00 solid 5px;
+        border-bottom: #000 solid 5px;
+        width: auto;
+        float: left;
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 16px;
+        margin-top: 5px;
+}
+
+#sidebar-two{
+	background: #0740fb;
+	color: #f8e403;
+        border-top: #00ff00 solid 5px;
+        border-bottom: #000 solid 5px;;
+        width: auto;
+        float: right;
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 16px;
+        margin-top: 5px;
+}
+
+#content{
+	background: #0fedf5;
+	color: #483636;
+	font-size: 14px;
+        border-top: #3333ff solid 5px;;
+        border-bottom: #ff33ff solid 5px;
+        font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+        font-size: 16px;
+        width: auto;
+        margin-top: 6px;
+}
+
+#footer{
+	background: #000;
+	color: #fff;
+        font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+        font-size: 16px;
+        clear: both;
+}
+
+.triangle {
+        margin: 50px auto;
+	width: 0;
+	height: 0;
+        padding: 2px;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid #555;
+        animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}

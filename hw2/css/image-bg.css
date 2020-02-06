@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    background-image: url("../images/Snowy-Night.jpg");
+    background-repeat: no-repeat;
+    background-size: 1950px 960px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2em;
+    color: #00ff00;
+    background: #000;
+}
+
+.triangle {
+    margin: 50px auto;
+    width: 0;
+    height: 0;
+    padding: 2px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 50px solid #555;
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

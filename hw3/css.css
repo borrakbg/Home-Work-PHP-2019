@@ -1,0 +1,30 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+th{
+    background: #ccc;
+}
+ .color1{
+     background: #00ff67;
+     color: #000cff;
+ }
+
+.color2{
+    background: #08ffcb;
+    color: #ff0010;
+}
+
+.color3{
+    background: #ff9f00;
+    color: #00ff67;
+}
+
+.color4{
+    background: #ff7d00;
+    color: #0dffeb;
+}
